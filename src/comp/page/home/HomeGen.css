@@ -1,0 +1,43 @@
+.homeGenWrapperTwo {
+	width: 100%;
+	margin: auto;
+}
+
+.homeGenTitle {
+	text-align: center;
+
+}
+
+.homeGenTitle > h2 {
+	margin: 3rem 0;
+	font-size: 2.5rem;
+	line-height: 1.2;
+	font-weight: 600;
+	/*font-style: italic;*/
+}
+.homeGen__wrapper {
+	display: grid;
+  grid-template-columns: 100%;
+  gap: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+	.homeGen__wrapper {
+	  grid-template-columns: 50% 50%;
+	  gap: 1rem;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.homeGen__wrapper {
+	  grid-template-columns: 33% 33% 33%;
+	  gap: 1rem;
+	}
+	.homeGenTitle > h2 {
+		margin: 2rem 0;
+		font-size: 3rem;
+		line-height: 1.5;
+		font-weight: 700;
+		/*font-style: italic;*/
+	}
+}

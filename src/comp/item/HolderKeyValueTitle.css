@@ -1,0 +1,33 @@
+.charMidBiodataListText__title {
+	/*background-color: coral;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 30%;
+	text-align: center;
+	border: 2px solid var(--primary);
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-right: unset;
+}
+
+.charMidBiodataListText__title > h4 {
+	font-size: 2rem;
+}
+
+.charMidBiodataListDot__title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 5%;
+}
+
+.charMidBiodataListValue__title {
+	/*background-color: crimson;*/
+	width: 65%;
+	padding: 1rem;
+	border: 2px solid var(--primary);
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-left: unset;
+}

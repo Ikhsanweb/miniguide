@@ -1,0 +1,39 @@
+.homeGenHome {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 8rem;
+	width: 100%;
+	/*background-color: var(--primary);*/
+}
+
+.homeGenHomeUpper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 70%;
+	width: 100%;
+	padding: 1rem;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border: 3px solid var(--variant);
+	border-bottom: unset;
+	/*background-color: cyan;*/
+}
+
+.homeGenHomeDowner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 30%;
+	width: 100%;
+	padding: 1rem;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border: 3px solid var(--variant);
+	border-top: unset;
+	/*background-color: orangered;*/
+}

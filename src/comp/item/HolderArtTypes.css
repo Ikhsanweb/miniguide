@@ -1,0 +1,25 @@
+.holderArtTypes {
+	width: 100%;
+}
+
+.typesWrapper {
+  display: grid;
+  grid-template-columns: 27% 67%;
+  gap: 1rem;
+}
+
+.holderMaterialDownItem__h3 {
+	/*border-top: 2px solid var(--primary);*/
+	line-height: 1.2;
+	color: var(--primary);
+	padding-top: 1rem;
+}
+
+.holderMaterialDownItemNext {
+	margin-top: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+}
