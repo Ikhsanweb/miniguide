@@ -1,0 +1,162 @@
+.char {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.charUp {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.charUpPic {
+	padding: 2rem;
+}
+
+.charUpPicCover {
+	width: 10rem;
+	height: 10rem;
+	background-color: var(--primary);
+	border-radius: 90%;
+}
+
+
+
+
+
+ 
+
+
+.charMid {
+	width: 100%;
+}
+
+.charMidBiodata {
+	width: 100%;
+}
+
+.charMidBiodataList {
+	display: flex;
+	/*flex-direction: column;*/
+	/*justify-content: flex-start;*/
+	/*align-items: flex-start;*/
+	width: 100%;
+	text-align: left;
+	margin: 0.5rem 0;
+}
+
+.charMidBiodataListText {
+	/*background-color: coral;*/
+	width: 40%;
+}
+
+.charMidBiodataListDot {
+	width: 10%;
+}
+
+.charMidBiodataListValue {
+	/*background-color: crimson;*/
+	width: 50%;
+}
+
+
+.charMidMaterial {
+	display: flex;
+	flex-direction: column;
+}
+
+.charMidMaterialHistory {
+	text-align: left;
+}
+
+.charMidMaterialLevel {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	margin-top: 1rem;
+	/*background-color: burlywood;*/
+	text-align: center;
+}
+
+.charMidMaterialLevelTitle {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.charMidMaterialLevelValue {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 70%;
+	/*background-color: cyan;*/
+	padding: 1rem 0;
+}
+ 
+.charMidMaterialLevelValueItem {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	margin-bottom: 2rem;
+	/*background-color: lemonchiffon;*/
+}
+
+.charMidMaterialLevelValueItemPic {
+	width: 40%;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border: 2px solid var(--primary);
+	padding: 1rem;
+	/*border-right: unset;*/
+}
+
+.charMidMaterialLevelValueItemValue {
+	width: 60%;
+	/*background-color: antiquewhite;*/
+	padding: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border: 2px solid var(--primary);
+	border-left: unset;
+}
+
+.charDownSkill {
+	display: flex;
+}
+
+.charDownSkillItem {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	padding: 1rem 0;
+}
+
+.charDownSkillItemItemPic {
+	width: 30%;
+	background-color: var(--primary);
+}
+
+.charDownSkillItemItemValue {
+	/*width: 70%;
+	background-color: antiquewhite;*/
+	padding: 1rem 0;
+	text-align: left;
+}
+
+/*.charDownSkillItemItemValue > h4 {
+	text-align: left;
+}*/
