@@ -35,7 +35,7 @@ const HolderMaterial = ({value}) => {
 								<div className="holderMaterialDownItem" key={newItem.listContentId}>
 									<h4>{newItem.listContentAmount}</h4>
 									<div className="holderMaterialImgCover">
-										<img className="imgg" src={newItem.listContentImage} />
+										<img alt={newItem.listContentName} className="imgg" src={newItem.listContentImage} />
 									</div>
 									<h5>{newItem.listContentName}</h5>
 								</div>

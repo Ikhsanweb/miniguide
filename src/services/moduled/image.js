@@ -120,7 +120,7 @@ import negatingCubeImg from '../../assets/negatingCube.webp'
 
 
 
-export default {
+export {
 	tartaglia,
 	diluc,
 	kamisatoAyato,

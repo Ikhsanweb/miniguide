@@ -1,28 +1,28 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
 import {IoIosArrowBack} from 'react-icons/io'
-import {FiMenu} from 'react-icons/fi'
+// import {FiMenu} from 'react-icons/fi'
 import {BiHomeSmile} from 'react-icons/bi'
-import {FaFacebook} from 'react-icons/fa'
+// import {FaFacebook} from 'react-icons/fa'
 
-import {FaInstagram} from 'react-icons/fa'
-import {AiFillGithub} from 'react-icons/ai';
-import {AiFillLinkedin} from 'react-icons/ai';
-import {FaTwitter} from 'react-icons/fa'
+// import {FaInstagram} from 'react-icons/fa'
+// import {AiFillGithub} from 'react-icons/ai';
+// import {AiFillLinkedin} from 'react-icons/ai';
+// import {FaTwitter} from 'react-icons/fa'
 
 import './BaseLayout.css'
 
 const BaseLayout = ({headTitle, children}) => {
-	const [isNextNavClicked, setIsNextNavClicked] = React.useState(true)
+	// const [isNextNavClicked, setIsNextNavClicked] = React.useState(true)
 	const Navigate = useNavigate()
 	return (
 		<section id="nextOne">
 			<div className="container nextOne__container">
 				<div className="nextOne__head">
 					<div className="baseLayoutNext">
-						<div className="nextOne__head-back"><a onClick={() => Navigate(-1)}><IoIosArrowBack className="nextOne__head-back-icon" /></a></div>
-						<div className="nextOne__head-back"><a onClick={() => Navigate("/")}><BiHomeSmile className="nextOne__head-back-icon" /></a></div>
+						<div className="nextOne__head-back"><button onClick={() => Navigate(-1)}><IoIosArrowBack className="nextOne__head-back-icon" /></button></div>
+						<div className="nextOne__head-back"><button onClick={() => Navigate("/")}><BiHomeSmile className="nextOne__head-back-icon" /></button></div>
 					</div>
 					<div className="nextOne__head-title"><h3>{headTitle}</h3></div>
 					{/*<div className="nextOne__head-navbar">

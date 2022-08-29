@@ -1,4 +1,4 @@
-import image from "../../../image"
+import * as image from "../../../image"
 
 const sprouts = {
   name: "Ley Line Sprouts",

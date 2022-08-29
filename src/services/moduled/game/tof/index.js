@@ -1,6 +1,6 @@
 import simulacra from "../../simulacra";
 import matrix from "../../matrix";
-import image from "../../image";
+import * as image from "../../image";
 
 const tof = {
   id: 2,

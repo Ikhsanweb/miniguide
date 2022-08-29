@@ -1,5 +1,5 @@
 import { tofHead, tofModus, tofSimulacra } from "../../main";
-import image from "../../image";
+import * as image from "../../image";
 
 const king = {
   contentId: 3,

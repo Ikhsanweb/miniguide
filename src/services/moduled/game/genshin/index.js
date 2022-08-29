@@ -1,7 +1,7 @@
 import char from "../../char";
 import weapon from "../../weapon";
 import artifact from "../../artifact";
-import image from "../../image";
+import * as image from "../../image";
 
 const genshin = {
   id: 1,

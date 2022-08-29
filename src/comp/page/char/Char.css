@@ -40,6 +40,7 @@
 
 .charMidBiodataList {
 	display: flex;
+	/*flex-direction: column;*/
 	width: 100%;
 	text-align: left;
 	margin: 0.5rem 0;
@@ -99,7 +100,7 @@
 	/*background-color: cyan;*/
 	padding: 1rem 0;
 }
-
+ 
 .charMidMaterialLevelValueItem {
 	display: flex;
 	height: 100%;

@@ -5,7 +5,7 @@ import './Game.css'
 import BaseLayout from '../../base/BaseLayout'
 
 import { Link, useParams } from 'react-router-dom'
-import HomeGenHome from "../../item/HomeGenHome";
+// import HomeGenHome from "../../item/HomeGenHome";
 
 import yutuberBangDB from '../../../services/moduled/game'
 
@@ -23,7 +23,7 @@ const Game = () => {
 		} else {
 			console.log("Nothing here")
 		}
-	}, [])
+	}, [gameId])
 
 	return (
 		<BaseLayout>
@@ -31,7 +31,7 @@ const Game = () => {
 				<div className="fluid-section">
 					{/*<h2>Minimized<br/>Info Guide</h2>*/}
 					<div className="gameLogo">
-						<img className="img" src={data && data.logo} />
+						<img alt={`game`} className="img" src={data && data.logo} />
 					</div>
 					{/*<h2>{data && data.name}</h2>*/}
 				</div>
@@ -41,9 +41,9 @@ const Game = () => {
 							key={`gameGen-${item.itemId}`}
 							to={`/game/${gameId}/wholeList/${`gameGen-${item.itemId}`}`}
 						>
-							<HomeGenHome 
-								homeText={item.itemName}
-							/>
+							<div className="gameNext">
+								<h4>{item.itemName}</h4>
+							</div>
 						</Link>
 					)}
 				</div>

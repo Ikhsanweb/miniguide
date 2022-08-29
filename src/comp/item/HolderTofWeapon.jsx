@@ -9,7 +9,7 @@ const HolderTofWeapon = ({value}) => {
 		<div className="holderTofWeapon">
 			<div className="charMidMaterialLevelValueItem">
 				<div className="charMidMaterialLevelValueItemPic">
-					<img className="img" src={value.weaponImg} />
+					<img alt={value.weaponName} className="img" src={value.weaponImg} />
 				</div>
 				<div className="charMidMaterialLevelValueItemValue">
 					<p>{value.weaponName}</p>

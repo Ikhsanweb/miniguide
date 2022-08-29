@@ -4,7 +4,7 @@ import './Holder.css'
 
 import BaseLayout from '../../base/BaseLayout'
 
-import { Link, useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import HolderItem from "../../item/HolderItem";
 
 import yutuberBangDB from '../../../services/moduled/game'
@@ -78,14 +78,14 @@ const Holder = () => {
 		} else {
 			console.log("Nothing here")
 		}
-	}, [])
+	}, [gameId, itemId, contentId])
 
 	return (
 		<BaseLayout>
 			<div className="char">
 				<div className="charUp">
 					<div className="charUpPic">
-						<img className="img" src={data && data.contentImg}/>
+						<img alt={data && data.contentName} className="img" src={data && data.contentImg}/>
 					</div>
 					<div className="charUpTitle">
 						<div className="charUpTitleName"><h3>{data && data.contentName}</h3></div>

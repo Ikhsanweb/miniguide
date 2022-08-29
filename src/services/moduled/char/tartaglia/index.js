@@ -1,5 +1,5 @@
 import { list, type, material, amountOf } from "../../main";
-import image from "../../image";
+import * as image from "../../image";
 
 const tartaglia = {
   contentId: 1,

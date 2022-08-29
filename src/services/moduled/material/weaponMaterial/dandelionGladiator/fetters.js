@@ -1,4 +1,4 @@
-import image from "../../../image";
+import * as image from "../../../image";
 
 const fetters = {
   name: "Fetters of The Dandelion Gladiator",

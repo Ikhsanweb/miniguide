@@ -8,7 +8,7 @@ const HomeGenHome = ({homePic, homeText}) => {
 	return (
 			<div className="homeGenHome">
 				<div className="homeGenHomeUpper">
-							<img className="img" src={homePic}/>
+							<img alt={homeText} className="img" src={homePic}/>
 				</div>
 				<div className="homeGenHomeDowner">
 					<h3>{homeText}</h3>

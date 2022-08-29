@@ -1,4 +1,4 @@
-import image from "../../../../image";
+import * as image from "../../../../image";
 
 const goblet = {
   name: "Witch's Heart Flames",

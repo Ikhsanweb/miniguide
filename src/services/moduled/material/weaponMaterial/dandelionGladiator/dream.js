@@ -1,4 +1,4 @@
-import image from "../../../image";
+import * as image from "../../../image";
 
 const dream = {
   name: "Dream of The Dandelion Gladiator",

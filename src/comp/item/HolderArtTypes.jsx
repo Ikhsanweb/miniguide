@@ -21,7 +21,7 @@ const HolderArtTypes = ({value}) => {
 								<div className="holderMaterialDownItem">
 									<div className="holderMaterialDownItemNext">
 										<div className="holderMaterialImgCover">
-											<img className="imgg" src={item.listImg} />
+											<img alt={item.listName} className="imgg" src={item.listImg} />
 										</div>
 									</div>
 								</div>

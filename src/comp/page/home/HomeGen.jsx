@@ -11,7 +11,7 @@ import yutuberBangDB from '../../../services/moduled/game'
 // ------------------------------ HomeGen ------------------------------ 
 
 const HomeGen = () => {
-	const [database, setDatabase] = React.useState(yutuberBangDB)
+	const [database] = React.useState(yutuberBangDB)
 	// console.log(database) 
 	return (
 		<div className="homeGen container home-steady">

@@ -4,21 +4,21 @@ import ReactDOM from 'react-dom/client';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 import './index.css';
-import App from './App';
+// import App from './App';
 // import reportWebVitals from './reportWebVitals';
 
 import HomeGen from './comp/page/home/HomeGen'
-
-import BaseLayout from './comp/base/BaseLayout'
-
-
-import Char from './comp/page/char/Char'
-import WholeList from './comp/page/wholeList/WholeList'
-import Weapon from './comp/page/weapon/Weapon'
 import Game from './comp/page/game/Game'
+import WholeList from './comp/page/wholeList/WholeList'
 import Holder from './comp/page/holder/Holder'
 
-import Ir from './comp/page/ir/Ir'
+// import BaseLayout from './comp/base/BaseLayout'
+
+
+// import Char from './comp/page/char/Char'
+// import Weapon from './comp/page/weapon/Weapon'
+
+// import Ir from './comp/page/ir/Ir'
 
 // ------------------------------------------------------------
 
@@ -31,7 +31,6 @@ root.render(
         <Route path="/game/:gameId" element={<Game />} />
         <Route path="/game/:gameId/wholeList/:itemId" element={<WholeList />} />
         <Route path="/game/:gameId/wholeList/:itemId/content/:contentId" element={<Holder />} />
-        <Route path="/weapon" element={<Weapon />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
@@ -45,6 +44,7 @@ root.render(
 //        <Route path="/region" element={<Region />} />
           // <Route path="/" element={<HomeCal />} />
           // <Route path="/ir" element={<Ir />} />
+          // <Route path="/weapon" element={<Weapon />} />
 //      </Routes>
 //    </BrowserRouter>
 

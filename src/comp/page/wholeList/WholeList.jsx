@@ -38,7 +38,7 @@ const WholeList = () => {
 		} else {
 			console.log("Nothing here")
 		}
-	}, [])
+	}, [gameId, itemId])
 
 	return (
 		<BaseLayout>

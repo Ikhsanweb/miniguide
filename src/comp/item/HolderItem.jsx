@@ -17,28 +17,28 @@ import HolderTofWeapon from './HolderTofWeapon'
 const HolderItem = ({model, metadata}) => {
 
 	const renderItem = (model, metadata) => {
-		if(model == "KeyValueMeta") {
+		if(model === "KeyValueMeta") {
 			return <HolderKeyValueMeta value={metadata}/>
-		} else if (model == "KeyValueTitle") {
+		} else if (model === "KeyValueTitle") {
 			return <HolderKeyValueTitle value={metadata} />
-		} else if (model == "KeyValue") {
+		} else if (model === "KeyValue") {
 			return <HolderKeyValue value={metadata} />
-		} else if (model == "OneText") {
+		} else if (model === "OneText") {
 			return <HolderItemOneText value={metadata} />
-		} else if (model == "Material") {
+		} else if (model === "Material") {
 			return <HolderMaterial value={metadata} />
-		} else if (model == "Rec") {
+		} else if (model === "Rec") {
 			return <HolderRec value={metadata} />
-		} else if (model == "TwoText") {
+		} else if (model === "TwoText") {
 			return <HolderItemTwoText value={metadata} />
-		} else if (model == "ArtTypes") {
+		} else if (model === "ArtTypes") {
 			return <HolderArtTypes value={metadata} />
-		} else if (model == "TofWeapon") {
+		} else if (model === "TofWeapon") {
 			return <HolderTofWeapon value={metadata} />
 		} else {
 			return console.log("No Where Where")
 		}
-		return null
+		// return console.log("No Where Where Where")
 	}
 
 	return (

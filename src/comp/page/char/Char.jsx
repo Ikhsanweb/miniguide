@@ -8,22 +8,22 @@ import BaseLayout from '../../base/BaseLayout'
 
 const Char = () => {
 
-	const myInit = {
-		method: 'GET',
-		mode: 'cors',
-		credentials: 'same-origin',
-	}
+	// const myInit = {
+	// 	method: 'GET',
+	// 	mode: 'cors',
+	// 	credentials: 'same-origin',
+	// }
 
-	React.useEffect(() => {
-		fetch("https://impact.moe/api/characters/", myInit)
-			.then(res => console.log(res))
-			// .then(data => console.log(data))
-			// .then(res => console.log(res))
-			.catch(err => console.log(err))
-		// return () => {
-		// 	effect
-		// };
-	}, [])
+	// React.useEffect(() => {
+	// 	fetch("https://impact.moe/api/characters/", myInit)
+	// 		.then(res => console.log(res))
+	// 		// .then(data => console.log(data))
+	// 		// .then(res => console.log(res))
+	// 		.catch(err => console.log(err))
+	// 	// return () => {
+	// 	// 	effect
+	// 	// };
+	// }, [])
 
 	return (
 		<BaseLayout>
